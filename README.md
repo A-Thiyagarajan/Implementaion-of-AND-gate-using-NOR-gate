@@ -20,14 +20,23 @@ Boolean Expression Y = A.B
 This is a NOT-OR gate which is equal to an OR gate followed by a NOT gate. The outputs of all NOR gates are low if any of the inputs are high. The symbol is an OR gate with a small circle on the output. The small circle represents inversion.
 
 Boolean Expression Y = (A+B)'
+# Explanation:
+An AND gate is equivalent to an inverted-input NOR gate. A NOR gate is equivalent to an inverted-input AND gate. An OR gate is equivalent to an inverted-input NAND gate. Two NOT gates in series are same as a buffer because they cancel each other as A'' = A.
+
+
 
 # Procedure:
 
 1.start the module using module projname().
+
 2.Declare the inputs and outputs.
+
 3.Use wire to assign intermediate outputs.
+
 4.Use NOR gates to get the desired output.
+
 5.End the module.
+
 6.Generate RTL realization and timing diagrams.
 
 # Program:
@@ -48,6 +57,10 @@ endmodule
 # Output:
 
 ## RTL diagram
+
+
+## RTL Timing diagram
+
 
 
 # Result:

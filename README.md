@@ -37,8 +37,8 @@ input A,B;
 output Y;
 wire P,Q;
 nor(P,A,A);
-nor(S,B,B);
-nor(Y,P,S);
+nor(Q,B,B);
+nor(Y,P,Q);
 endmodule
 ```
 ## Logic symbol & Truthtable:

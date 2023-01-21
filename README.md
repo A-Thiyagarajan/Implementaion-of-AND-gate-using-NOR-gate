@@ -3,7 +3,7 @@
 To design a AND gate using NOR gate and verify its truth table in Quartus using Verilog programming.
 
 ## Equipments Required:
-Hardware – PCs, Cyclone II , USB flasher Software – Quartus prime Theory Adders are digital circuits that carry out addition of numbers.
+Hardware – PCs, Cyclone II , USB flasher Software.
 ## Theory
 ### AND GATE: 
 AND gate The AND gate is an electronic circuit that gives a high output (1) only if all its inputs are high. A dot (.) is used to show the AND operation i.e. A.B or can be written as AB
@@ -27,9 +27,22 @@ If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 
 ## Program:
+```
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: A.Thiyagarajan
 RegisterNumber: 22008681
+
+module andnor(A,B,Y);
+input A,B;
+output Y;
+wire P,Q;
+nor(P,A,A);
+nor(S,B,B);
+nor(Y,P,S);
+endmodule
+```
+## Logic symbol & Truthtable:
+
 
 
 

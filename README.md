@@ -2,8 +2,14 @@
 ## AIM:
 To design a AND gate using NOR gate and verify its truth table in Quartus using Verilog programming.
 
-## Equipments Required:
-Hardware – PCs, Cyclone II , USB flasher Software.
+## HARDWARE REQUIRED:
+PC
+Cyclone II
+USB flasher
+
+## SOFTWARE REQUIRED:
+Quartus prime Model Sim
+
 ## Theory
 ### AND GATE: 
 AND gate The AND gate is an electronic circuit that gives a high output (1) only if all its inputs are high. A dot (.) is used to show the AND operation i.e. A.B or can be written as AB
@@ -16,15 +22,13 @@ This is a NOT-OR gate which is equal to an OR gate followed by a NOT gate. The o
 Boolean Expression Y = (A+B)'
 
 ## Procedure:
-Connect the supply (+5V) to the circuit Switch ON the main switch Press the switches for inputs “A” and “B”. 
 
-The switch is ON state when 1 is pressed. 
-
-The switch is OFF state when 0 is pressed. 
-
-If the output is 1, then the bulb glows. 
-
-Check all the gates following the same procedure.
+1.start the module using module projname().
+2.Declare the inputs and outputs.
+3.Use wire to assign intermediate outputs.
+4.Use NOR gates to get the desired output.
+5.End the module.
+6.Generate RTL realization and timing diagrams.
 
 ## Program:
 ```
@@ -41,7 +45,12 @@ nor(Q,B,B);
 nor(Y,P,Q);
 endmodule
 ```
-## Logic symbol & Truthtable:
+### Output:
+#### RTL diagram
+
+
+### Result:
+
 
 
 

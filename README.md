@@ -16,13 +16,21 @@ AND gate The AND gate is an electronic circuit that gives a high output (1) only
 
 Boolean Expression Y = A.B
 
+![or gate](https://user-images.githubusercontent.com/118707693/213922517-40e1e068-0c51-45ce-be47-3028905355ca.png)
+
+
+
 ## NOR GATE:
 This is a NOT-OR gate which is equal to an OR gate followed by a NOT gate. The outputs of all NOR gates are low if any of the inputs are high. The symbol is an OR gate with a small circle on the output. The small circle represents inversion.
 
 Boolean Expression Y = (A+B)'
+
+![AND gate diagram](https://user-images.githubusercontent.com/118707693/213922550-d2b3c399-0dbc-406d-9f61-41e2ef3ef76d.png)
+
 # Explanation:
 An AND gate is equivalent to an inverted-input NOR gate. A NOR gate is equivalent to an inverted-input AND gate. An OR gate is equivalent to an inverted-input NAND gate. Two NOT gates in series are same as a buffer because they cancel each other as A'' = A.
 
+![and-nor diagram ](https://user-images.githubusercontent.com/118707693/213922690-bde57394-49ae-47e8-8c3f-b7a489d5da83.png)
 
 
 # Procedure:
@@ -57,9 +65,11 @@ endmodule
 # Output:
 
 ## RTL diagram
+![and-nor rtl](https://user-images.githubusercontent.com/118707693/213922813-86c3ad2b-c4c8-42d9-b689-5841de1e98c8.jpg)
 
 
 ## RTL Timing diagram
+![and-nor td](https://user-images.githubusercontent.com/118707693/213922825-245eb0ca-2703-47a6-a13a-086fc2aa366d.jpg)
 
 
 

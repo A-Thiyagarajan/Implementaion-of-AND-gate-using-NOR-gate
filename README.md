@@ -16,7 +16,7 @@ AND gate The AND gate is an electronic circuit that gives a high output (1) only
 
 Boolean Expression Y = A.B
 
-![or gate](https://user-images.githubusercontent.com/118707693/213922517-40e1e068-0c51-45ce-be47-3028905355ca.png)
+![AND gate diagram](https://user-images.githubusercontent.com/118707693/213923370-e508f517-7dde-40b0-8ca0-81d7ddc0df8c.png)
 
 
 
@@ -25,7 +25,8 @@ This is a NOT-OR gate which is equal to an OR gate followed by a NOT gate. The o
 
 Boolean Expression Y = (A+B)'
 
-![AND gate diagram](https://user-images.githubusercontent.com/118707693/213922550-d2b3c399-0dbc-406d-9f61-41e2ef3ef76d.png)
+![nor gate](https://user-images.githubusercontent.com/118707693/213923350-7fdfe8b7-c0f1-4925-bb22-de0f010fd274.png)
+
 
 # Explanation:
 An AND gate is equivalent to an inverted-input NOR gate. A NOR gate is equivalent to an inverted-input AND gate. An OR gate is equivalent to an inverted-input NAND gate. Two NOT gates in series are same as a buffer because they cancel each other as A'' = A.

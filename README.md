@@ -31,6 +31,13 @@ Boolean Expression Y = (A+B)'
 # Explanation:
 An AND gate is equivalent to an inverted-input NOR gate. A NOR gate is equivalent to an inverted-input AND gate. An OR gate is equivalent to an inverted-input NAND gate. Two NOT gates in series are same as a buffer because they cancel each other as A'' = A.
 
+### AND gate using NOR gate:-
+#### proof:-
+
+(A+A)' = A' similarly, (B+B)' = B'
+so, (A'+B')' = (A.B)'' (Demorgain Law)
+= A.B
+
 ![and-nor diagram ](https://user-images.githubusercontent.com/118707693/213922690-bde57394-49ae-47e8-8c3f-b7a489d5da83.png)
 
 
